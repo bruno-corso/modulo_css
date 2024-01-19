@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body > header {
+    background-color: #360a88;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    box-shadow: 1px 1px 5px #222;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    opacity: 0.6;
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.artigos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigos article {
+    width: 30%;
+}
+
+.artigos article img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+time{
+    color: rgba(0, 0, 0, 0.5)
+}
+
+h3{
+    margin: 1rem 0;
+}
+
+p{
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+article a{
+    display: inline-block;
+    padding: 0.5rem;
+    background-color: #360a88;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+article a:hover {
+    scale: 1.1;
+    text-decoration: underline;
+}
+
+#sports {
+    background-color:rgba(255, 255, 0, 0.15)
+}
+
+#economy {
+    background-color:rgba(0, 255, 255, 0.15)
+}
+
+#entretenimento {
+    background-color:rgba(255, 0, 255, 0.15)
+}
+
+#tecnologia {
+    background-color:rgba(0, 0, 0, 0.15)
+}
